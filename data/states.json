@@ -1,0 +1,218 @@
+[
+  {
+    "value": 12,
+    "UF-sigla": "AC",
+    "name": "Acre",
+    "regiao-id": 1,
+    "regiao-sigla": "N",
+    "regiao-nome": "Norte"
+  },
+  {
+    "value": 27,
+    "UF-sigla": "AL",
+    "name": "Alagoas",
+    "regiao-id": 2,
+    "regiao-sigla": "NE",
+    "regiao-nome": "Nordeste"
+  },
+  {
+    "value": 16,
+    "UF-sigla": "AP",
+    "name": "Amapá",
+    "regiao-id": 1,
+    "regiao-sigla": "N",
+    "regiao-nome": "Norte"
+  },
+  {
+    "value": 13,
+    "UF-sigla": "AM",
+    "name": "Amazonas",
+    "regiao-id": 1,
+    "regiao-sigla": "N",
+    "regiao-nome": "Norte"
+  },
+  {
+    "value": 29,
+    "UF-sigla": "BA",
+    "name": "Bahia",
+    "regiao-id": 2,
+    "regiao-sigla": "NE",
+    "regiao-nome": "Nordeste"
+  },
+  {
+    "value": 23,
+    "UF-sigla": "CE",
+    "name": "Ceará",
+    "regiao-id": 2,
+    "regiao-sigla": "NE",
+    "regiao-nome": "Nordeste"
+  },
+  {
+    "value": 53,
+    "UF-sigla": "DF",
+    "name": "Distrito Federal",
+    "regiao-id": 5,
+    "regiao-sigla": "CO",
+    "regiao-nome": "Centro-Oeste"
+  },
+  {
+    "value": 32,
+    "UF-sigla": "ES",
+    "name": "Espírito Santo",
+    "regiao-id": 3,
+    "regiao-sigla": "SE",
+    "regiao-nome": "Sudeste"
+  },
+  {
+    "value": 52,
+    "UF-sigla": "GO",
+    "name": "Goiás",
+    "regiao-id": 5,
+    "regiao-sigla": "CO",
+    "regiao-nome": "Centro-Oeste"
+  },
+  {
+    "value": 21,
+    "UF-sigla": "MA",
+    "name": "Maranhão",
+    "regiao-id": 2,
+    "regiao-sigla": "NE",
+    "regiao-nome": "Nordeste"
+  },
+  {
+    "value": 51,
+    "UF-sigla": "MT",
+    "name": "Mato Grosso",
+    "regiao-id": 5,
+    "regiao-sigla": "CO",
+    "regiao-nome": "Centro-Oeste"
+  },
+  {
+    "value": 50,
+    "UF-sigla": "MS",
+    "name": "Mato Grosso do Sul",
+    "regiao-id": 5,
+    "regiao-sigla": "CO",
+    "regiao-nome": "Centro-Oeste"
+  },
+  {
+    "value": 31,
+    "UF-sigla": "MG",
+    "name": "Minas Gerais",
+    "regiao-id": 3,
+    "regiao-sigla": "SE",
+    "regiao-nome": "Sudeste"
+  },
+  {
+    "value": 15,
+    "UF-sigla": "PA",
+    "name": "Pará",
+    "regiao-id": 1,
+    "regiao-sigla": "N",
+    "regiao-nome": "Norte"
+  },
+  {
+    "value": 25,
+    "UF-sigla": "PB",
+    "name": "Paraíba",
+    "regiao-id": 2,
+    "regiao-sigla": "NE",
+    "regiao-nome": "Nordeste"
+  },
+  {
+    "value": 41,
+    "UF-sigla": "PR",
+    "name": "Paraná",
+    "regiao-id": 4,
+    "regiao-sigla": "S",
+    "regiao-nome": "Sul"
+  },
+  {
+    "value": 26,
+    "UF-sigla": "PE",
+    "name": "Pernambuco",
+    "regiao-id": 2,
+    "regiao-sigla": "NE",
+    "regiao-nome": "Nordeste"
+  },
+  {
+    "value": 22,
+    "UF-sigla": "PI",
+    "name": "Piauí",
+    "regiao-id": 2,
+    "regiao-sigla": "NE",
+    "regiao-nome": "Nordeste"
+  },
+  {
+    "value": 33,
+    "UF-sigla": "RJ",
+    "name": "Rio de Janeiro",
+    "regiao-id": 3,
+    "regiao-sigla": "SE",
+    "regiao-nome": "Sudeste"
+  },
+  {
+    "value": 24,
+    "UF-sigla": "RN",
+    "name": "Rio Grande do Norte",
+    "regiao-id": 2,
+    "regiao-sigla": "NE",
+    "regiao-nome": "Nordeste"
+  },
+  {
+    "value": 43,
+    "UF-sigla": "RS",
+    "name": "Rio Grande do Sul",
+    "regiao-id": 4,
+    "regiao-sigla": "S",
+    "regiao-nome": "Sul"
+  },
+  {
+    "value": 11,
+    "UF-sigla": "RO",
+    "name": "Rondônia",
+    "regiao-id": 1,
+    "regiao-sigla": "N",
+    "regiao-nome": "Norte"
+  },
+  {
+    "value": 14,
+    "UF-sigla": "RR",
+    "name": "Roraima",
+    "regiao-id": 1,
+    "regiao-sigla": "N",
+    "regiao-nome": "Norte"
+  },
+  {
+    "value": 42,
+    "UF-sigla": "SC",
+    "name": "Santa Catarina",
+    "regiao-id": 4,
+    "regiao-sigla": "S",
+    "regiao-nome": "Sul"
+  },
+  {
+    "value": 35,
+    "UF-sigla": "SP",
+    "name": "São Paulo",
+    "regiao-id": 3,
+    "regiao-sigla": "SE",
+    "regiao-nome": "Sudeste"
+  },
+  {
+    "value": 28,
+    "UF-sigla": "SE",
+    "name": "Sergipe",
+    "regiao-id": 2,
+    "regiao-sigla": "NE",
+    "regiao-nome": "Nordeste"
+  },
+  {
+    "value": 17,
+    "UF-sigla": "TO",
+    "name": "Tocantins",
+    "regiao-id": 1,
+    "regiao-sigla": "N",
+    "regiao-nome": "Norte"
+  }
+]
