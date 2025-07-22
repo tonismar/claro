@@ -10,11 +10,27 @@ import pandas as pd
 import pytz
 
 def get_unixtimestamp(data, fuso='America/Sao_Paulo'):
+  """
+    Transforma a data em unixtimestamp
+
+    Args:
+      arg1 (date): Data informada no formato YYYY-MM-DD HH:MM:SS
+      arg2 (string): Fuso horário, padrão America/Sao_Paulo
+  """
   formato = "%Y-%m-%d %H:%M:%S"
   tz = pytz.timezone(fuso)
   return int(tz.localize(datetime.strptime(data, formato)).timestamp())
 
 def get_programacao(uf, cidade, data_inicio, data_fim):
+  """
+    Recupera a programação de acordo com os parâmetros informados
+
+    Args:
+      arg1 (string): Nome do estado
+      arg2 (cidade): Nome da cidade
+      arg3 (unixtimestamp): Data inicial
+      arg4 (unixtimestamp): Data final
+  """
   url = "https://www.clarotvmais.com.br/avsclient/1.2/epg/livechannels"
   timeout_seconds = 3
 
@@ -39,6 +55,12 @@ def get_programacao(uf, cidade, data_inicio, data_fim):
     print(f"Ocorreu um erro inesperado: {e}")
 
 def get_estados():
+  """
+    Recupera os estados lendo o arquivo states.json
+
+    Returns:
+      DataFrame: listagem dos estados brasileiros
+  """
   path = 'data/states.json'
   try:
     estados = pd.read_json(path)
@@ -51,6 +73,15 @@ def get_estados():
     print(f"Ocorreu um erro: {e}")
 
 def get_cidades(estado):
+  """
+    Carrega as cidades do arquivo cities.json em um DataFrame e filtra pelo estado selecionado
+
+    Args:
+      arg1 string: Nome do estado
+
+    Returns: 
+      DataFrame: listagens das cidades do estado informado 
+  """
   path = 'data/cities.json'
   try:
     cidades = pd.read_json(path)
@@ -62,8 +93,17 @@ def get_cidades(estado):
     print(f"Erro: O arquivo '{path}' não é um JSON válido.")
   except Exception as e:
     print(f"Ocorreu um erro: {e}")
-  
+
 def show_table(db):
+  """
+    Lista a programação
+
+    Args:
+      arg1 (DataFrame): listagem da programação
+
+    Returns:
+      void:
+  """
   colunas = ['title', 'formattedTime']
 
   col1_header, col2_header = st.columns([0.2, 0.8])
