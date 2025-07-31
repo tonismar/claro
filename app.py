@@ -8,7 +8,6 @@ from requests.exceptions import ConnectionError, Timeout, HTTPError, RequestExce
 import json
 import pandas as pd
 import pytz
-from head import head
 
 def get_unixtimestamp(data, fuso='America/Sao_Paulo'):
   """
@@ -139,8 +138,6 @@ def show_table(db):
     st.markdown("---")
 
 st.title("Programação TV Claro")
-
-head()
 
 estados = st.selectbox(
   "Estados",
